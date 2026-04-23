@@ -4,7 +4,7 @@ import "./globals.css";
 import { Providers } from "./providers";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
-import { CustomCursor } from "@/components/ui/custom-cursor";
+import { ScrollToTop } from "@/components/ui/scroll-to-top";
 
 const jakarta = Plus_Jakarta_Sans({
   variable: "--font-jakarta",
@@ -13,12 +13,12 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "NoKasa — Responsible Clothing Recycling",
+  title: "NoKasa : Responsible Clothing Recycling",
   description:
-    "NoKasa helps you responsibly recycle clothes, earn rewards, and reduce textile waste — all with a simple doorstep pickup.",
+    "NoKasa helps you responsibly recycle clothes, earn rewards, and reduce textile waste : all with a simple doorstep pickup.",
   keywords: ["clothing recycling", "wardrobe declutter", "textile waste", "sustainable fashion", "India"],
   openGraph: {
-    title: "NoKasa — Responsible Clothing Recycling",
+    title: "NoKasa : Responsible Clothing Recycling",
     description:
       "Schedule a clothing pickup in under 30 seconds. Earn rewards and help reduce India's textile waste.",
     type: "website",
@@ -39,7 +39,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
         <Providers>
-          <CustomCursor />
+          <ScrollToTop />
           <Navbar />
           {children}
           <Footer />

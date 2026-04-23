@@ -235,7 +235,7 @@ export default function FabCalPage() {
                    />
                    <div className="absolute inset-0 bg-gradient-to-t from-gray-950/80 via-transparent to-transparent" />
                    <div className="absolute bottom-10 left-10 right-10 p-8 rounded-[2rem] bg-white/10 backdrop-blur-md border border-white/20 text-white">
-                      <p className="text-lg font-black leading-tight italic">"The most sustainable garment is the one already in your closet — or the one being rescued for recycle."</p>
+                      <p className="text-lg font-black leading-tight italic">"The most sustainable garment is the one already in your closet, or the one being rescued for recycle."</p>
                    </div>
                 </div>
              </motion.div>

@@ -88,7 +88,7 @@ export default function FactsPage() {
   };
 
   const shareFact = (platform: 'twitter' | 'facebook' | 'whatsapp') => {
-    const text = encodeURIComponent(`Mind-blown by this fact: "${currentFact}" — Learn more at NoKasa #SustainableFashion #NoKasa`);
+    const text = encodeURIComponent(`Mind-blown by this fact: "${currentFact}". Learn more at NoKasa #SustainableFashion #NoKasa`);
     const url = encodeURIComponent("https://nokasa.vercel.app/resources/facts");
     
     const links = {

@@ -9,20 +9,21 @@ import { Particles } from "@/components/ui/particles";
 const STEPS = [
   {
     n: "01",
-    title: "Schedule a pickup",
-    desc: "Open the app and choose a date and time slot. We make it simple — no need to count each item.",
+    title: "Install the app",
+    desc: "Download the NoKasa app, pick a date and time that works for you, and schedule your pickup in seconds.",
     image: "/images/step-1.png",
   },
   {
     n: "02",
-    title: "Pack your clothes",
-    desc: "Neatly fold and place your unused clothes in a clean cardboard box. Ready for a new life.",
+    title: "Segregate your clothes",
+    // TODO: replace step-2.png with an image showing wearable vs non-wearable split
+    desc: "Sort your clothes into two piles: wearable and non-wearable. Use any bag you have at home. No special packaging needed.",
     image: "/images/step-2.png",
   },
   {
     n: "03",
     title: "Earn rewards instantly",
-    desc: "Our delivery agent collects the box and you receive your rewards on the spot. No paperwork.",
+    desc: "Our delivery agent collects the clothes and you receive your rewards on the spot.",
     image: "/images/step-3.png",
   },
 ];
@@ -110,13 +111,13 @@ export function Solution() {
             How It Works
           </div>
           <h2
-            className="text-[40px] md:text-[56px] font-black text-gray-950 dark:text-gray-100 mb-6 leading-[1.1] tracking-tight"
+            className="text-[30px] sm:text-[38px] md:text-[56px] font-black text-gray-950 dark:text-gray-100 mb-6 leading-[1.1] tracking-tight"
             style={{ fontFamily: "var(--font-display)" }}
           >
             A simple way to give your clothes a second life.
           </h2>
           <p className="text-lg md:text-xl text-gray-500 dark:text-gray-400 font-medium leading-[1.6]">
-            NoKasa connects households with responsible recycling and resale networks without any hassle from your end.
+            From your closet to a new owner, in three effortless steps.
           </p>
         </motion.div>
 
